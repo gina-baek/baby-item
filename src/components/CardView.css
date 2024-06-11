@@ -1,0 +1,60 @@
+.card {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 410px;
+}
+
+span {
+  display: flex;
+}
+
+.main-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.availability {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.checkIcon {
+  filter: invert(8%) sepia(100%) saturate(6740%) hue-rotate(246deg)
+    brightness(102%) contrast(147%);
+}
+.closeIcon {
+  filter: invert(10%) sepia(100%) saturate(5389%) hue-rotate(359deg)
+    brightness(117%) contrast(114%);
+}
+
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  /* height: 400px; */
+  background-color: white;
+  border: 1px solid #808080;
+  border-radius: 0.5rem;
+  box-shadow: 24;
+  padding: 0px 15px 20px;
+}
+
+.modalBox > .topPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalButton {
+  width: 200px;
+  align-self: center;
+}
